@@ -1,9 +1,17 @@
 {
-  "name" : "rt3",
+  "name" : "rt3-modulo",
   "version": "1.0.0",
-  "main": "calculo.js", 
+  "description": "",
+  "main": "out/calculos.js", 
+  "keywords": [],
+  "author": "estupendo",
   "type": "module",
+  "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.13.10"
+  },
+  "scripts": {
+    "build": "tsc"
   }
+
 }
