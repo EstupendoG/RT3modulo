@@ -1,8 +1,8 @@
 {
-  "name" : "rt3-modulo",
+  "name": "rt3-modulo",
   "version": "1.0.0",
   "description": "",
-  "main": "out/calculos.js", 
+  "main": "out/calculos.js",
   "keywords": [],
   "author": "estupendo",
   "type": "module",
@@ -11,7 +11,7 @@
     "@types/node": "^22.13.10"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   }
-
 }
